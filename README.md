@@ -1,2 +1,2 @@
-# proj1
-First Project
+# EFY
+EFY Project
