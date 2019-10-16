@@ -1,0 +1,35 @@
+{
+  "name": "efy",
+  "version": "1.0.0",
+  "description": "This app serves the purpose of adding the CI and coverage",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc ./node_modules/jasmine/bin/jasmine.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fezzopro/EFY.git"
+  },
+  "keywords": [
+    "REST",
+    "API"
+  ],
+  "author": "KAMANA Felix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fezzopro/EFY/issues"
+  },
+  "homepage": "https://github.com/fezzopro/EFY#readme",
+  "devDependencies": {
+    "coveralls": "^3.0.7",
+    "jasmine": "^3.5.0",
+    "nodemon": "^1.19.4",
+    "nyc": "^14.1.1",
+    "request": "^2.88.0"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
